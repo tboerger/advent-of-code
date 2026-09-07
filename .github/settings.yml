@@ -1,7 +1,7 @@
 ---
 repository:
   name: advent-of-code
-  description: Personal implementation for Advent of Code
+  description: Personal implementation for AoC
   topics: advent, aoc
 
   private: false
