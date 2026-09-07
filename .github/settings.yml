@@ -47,7 +47,9 @@ rulesets:
       - type: required_status_checks
         parameters:
           strict_required_status_checks_policy: true
-          required_status_checks: []
+          required_status_checks:
+            - context: testing
+              integration_id: 15368
     bypass_actors:
       - actor_id: 5
         actor_type: RepositoryRole
