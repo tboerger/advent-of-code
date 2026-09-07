@@ -1,4 +1,4 @@
-# Advent Of Code 2024
+# Advent Of Code
 
 This repository simply contains my tries to solved the [advent of code][aoc]
 challenges, you don't have to like of love this, just one way to solve the
