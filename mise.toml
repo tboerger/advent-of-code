@@ -3,4 +3,4 @@
 [tools]
 go = "1.27.1"
 golangci-lint = "2.13.2"
-prek = "0.5.2"
+prek = "0.5.3"
