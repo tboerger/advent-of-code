@@ -2,25 +2,13 @@ package main
 
 import (
 	"log/slog"
-	"os"
 	"strconv"
 
 	"github.com/tboerger/advent-of-code/pkg"
 )
 
 func main() {
-	testing := false
-
-	for _, arg := range os.Args[1:] {
-		switch arg {
-		case "--debug":
-			slog.SetLogLoggerLevel(slog.LevelDebug)
-		case "--testing":
-			testing = true
-		}
-	}
-
-	slog.Info("finished", "result", run(testing))
+	pkg.Start(run)
 }
 
 func run(testing bool) string {

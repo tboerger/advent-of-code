@@ -4,6 +4,28 @@ This repository simply contains my tries to solved the [advent of code][aoc]
 challenges, you don't have to like of love this, just one way to solve the
 challenges...
 
+## Prerequisites
+
+We use [mise][mise] to manage all required tools and their versions. Install it
+by following the [official installation instructions][mise-install], then run
+the following commands inside the repository to activate mise and install all
+tools defined in `mise.toml`:
+
+```console
+mise trust
+mise install
+```
+
+## Usage
+
+```console
+go run ./2026/day1/part1 --debug --testing
+go run ./2026/day1/part1 --debug
+
+go run ./2026/day1/part2 --debug --testing
+go run ./2026/day1/part2 --debug
+```
+
 ## Contributing
 
 Generally we are following [conventional commits][commits] when we apply
@@ -49,3 +71,5 @@ Copyright (c) 2024 Thomas Boerger <thomas@webhippie.de>
 ```
 
 [aoc]: https://adventofcode.com/
+[mise]: https://mise.jdx.dev/
+[mise-install]: https://mise.jdx.dev/getting-started.html
