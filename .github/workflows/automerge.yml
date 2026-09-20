@@ -19,11 +19,6 @@ jobs:
     if: github.actor == 'dependabot[bot]'
 
     steps:
-      - name: Setup nodejs
-        uses: actions/setup-node@v7
-        with:
-          node-version: lts/*
-
       - name: Fetch metadata
         uses: dependabot/fetch-metadata@v3
         with:
@@ -42,6 +37,6 @@ jobs:
       - name: Enable automerge
         run: gh pr merge --rebase --auto "${{github.event.pull_request.html_url}}"
         env:
-          GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
 ...

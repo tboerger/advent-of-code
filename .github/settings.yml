@@ -67,8 +67,8 @@ rulesets:
       - type: pull_request
         parameters:
           allowed_merge_methods:
-            - squash
             - rebase
+            - squash
           dismiss_stale_reviews_on_push: false
           require_code_owner_review: false
           require_last_push_approval: false
@@ -143,8 +143,5 @@ labels:
   - name: outdated
     color: "cccccc"
     description: This is out of scope and outdated
-  - name: tools
-    color: 1d76db
-    description: Tools updates used for CI and other tasks
 
 ...
