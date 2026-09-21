@@ -73,3 +73,5 @@ Copyright (c) 2024 Thomas Boerger <thomas@webhippie.de>
 [aoc]: https://adventofcode.com/
 [mise]: https://mise.jdx.dev/
 [mise-install]: https://mise.jdx.dev/getting-started.html
+[commits]: https://www.conventionalcommits.org/en/v1.0.0/
+[semver]: https://semver.org/
