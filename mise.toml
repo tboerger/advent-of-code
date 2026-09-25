@@ -2,5 +2,5 @@
 
 [tools]
 go = "1.27.1"
-golangci-lint = "2.13.2"
+golangci-lint = "2.14.0"
 prek = "0.5.3"
